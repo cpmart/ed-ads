@@ -1,3 +1,4 @@
-ex[0-99]
-ex3-pilha.dSYM
-
+.DS_Store
+.TemporaryItems
+Temporary Items
+*.exe
