@@ -14,9 +14,6 @@ int main(){
 }
 
 float ajustarSalario(float salarioFuncao){
-    if(salarioFuncao<=500)
-        return salarioFuncao*1.3;
-    else
-        return salarioFuncao;
+    return salarioFuncao<=500 ? salarioFuncao*1.3 : salarioFuncao;
 }
 
