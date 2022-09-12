@@ -11,6 +11,7 @@ int main(){
     printf("Informe o índice: ");
     scanf("%f",&indice);
     classificarIndide(indice);
+    
 }
 
 void classificarIndide(float indice){
