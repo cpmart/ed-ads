@@ -12,13 +12,12 @@ int main(){
     srand(time(NULL));
     for (i = 0; i < N; i++){
         vetor[i]=rand()%10;
-        printf("%d\t",vetor[i]);
-    }
-    maior=menor=vetor[0];
-    for(i=0; i<N; i++){
+        if(i==0)
+            maior=menor=vetor[0];
         maior = vetor[i]>maior?vetor[i]:maior;
         menor = vetor[i]<menor?vetor[i]:menor;
         total += vetor[i];
+        printf("%d\t",vetor[i]);
     }
     printf("\nMaior: %d\n",maior);
     printf("Menor: %d\n",menor);
